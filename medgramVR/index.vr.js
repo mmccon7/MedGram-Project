@@ -5,15 +5,15 @@ import { View, Text, Pano, AppRegistry, asset, StyleSheet } from 'react-vr';
 const places = [
   {
     title: 'Home',
-    image: 'island-garden.jpg'
+    image: 'front.jpg'
   },
   {
     title: 'Profile',
-    image: 'starry-sky.jpg'
+    image: 'winter-outdoor.jpg'
   },
   {
     title: 'Chat',
-    image: 'winter-outdoor.jpg'
+    image: 'museum.jpg'
   },
   {
     title: 'Immerse',
