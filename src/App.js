@@ -31,7 +31,7 @@ function Home() {
 
 function Register() {
   return (
-    <div>
+      <div>
           <div className="container">
             <div className="jumbotron text-center">
               <h1>MedGram</h1>
@@ -53,7 +53,7 @@ function Register() {
           <div>
             <Link to="/">Sign In</Link>
           </div>
-        </div>
+      </div>
   );
 }
 

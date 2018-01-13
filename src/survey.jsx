@@ -26,6 +26,18 @@ class App extends Component {
                     </select>
                 </div>
                 <br />
+                 <div className="form-group">
+                    <label for="q4" className="lead">What brings you to MedGram?</label>
+                    <select id="q4" className="form-control" required>
+                        <option value="select" default>Please select</option>
+                        <option value="1">Information</option>
+                        <option value="2">Find a doctor</option>
+                        <option value="3">Socializing</option>
+                        <option value="4">To meet people like me</option>
+                        <option value="5">Just browsing</option>
+                    </select>
+                </div>
+                <br />
                 <div className="form-group">
                     <label for="q3" className="lead">Whats your medical diagnosis?</label>
                     <select id="q3" className="form-control" required>
@@ -39,14 +51,31 @@ class App extends Component {
                 </div>
                 <br />
                 <div className="form-group">
-                    <label for="q4" className="lead">What brings you to medGram?</label>
-                    <select id="q4" className="form-control" required>
+                    <label for="q1" className="lead">What symptoms are you experiencing?</label>
+                    <input type="text" className="form-control" id="name" required />
+                </div>  
+                <br />
+                <div className="form-group">
+                    <label for="q3" className="lead">Support groups that may interest you</label>
+                    <select id="q3" className="form-control" required>
                         <option value="select" default>Please select</option>
-                        <option value="1">Information</option>
-                        <option value="2">Find a doctor</option>
-                        <option value="3">Socializing</option>
-                        <option value="4">To meet people like me</option>
-                        <option value="5">Just browsing</option>
+                        <option value="1">Sleep Deprevation Control</option>
+                        <option value="2">Obesity/Weight Loss</option>
+                        <option value="3">High Blood Pressure Relief</option>
+                        <option value="4">Depression Help</option>
+                        <option value="5">Anxiety Help</option>
+                    </select>
+                </div>
+                <br/>
+                <div className="form-group">
+                    <label for="q3" className="lead">Specialists that may interest you</label>
+                    <select id="q3" className="form-control" required>
+                        <option value="select" default>Please select</option>
+                        <option value="1">Cardiologist</option>
+                        <option value="2">Psychiatrist</option>
+                        <option value="3">Neurologist</option>
+                        <option value="4">Dietitian/Nutritionist</option>
+                        <option value="5">General Doctor</option>
                     </select>
                 </div>
                 <br/>
